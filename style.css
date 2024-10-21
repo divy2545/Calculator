@@ -1,0 +1,45 @@
+
+#numpad {
+position:absolute;
+top: 30%;
+left: 40%;
+display: grid;
+grid-template-columns: auto auto auto auto;
+}
+.num {
+background-color: rgba(79, 73, 73, 0.364);
+padding: 20px;
+font-size: 30px;
+margin: 3px;
+color: white;
+border: 1px solid black;
+border-radius: 5px;
+height: 20px;
+width: 20px;
+
+padding-bottom: 30px;
+text-align: center;
+}
+
+.inp{
+background-color: rgba(250, 239, 239, 0.854);
+height: 35px;
+width: 260px;
+position: absolute;
+top: 24%;
+left: 40.2%;
+border-radius: 5px;
+
+}
+
+.op{
+    background-color: rgba(25, 177, 211, 0.756);
+}
+
+.res{
+    background-color: rgb(255, 157, 0);
+}
+
+.fn{
+    background-color: rgb(43, 226, 180);
+}
